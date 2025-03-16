@@ -91,6 +91,10 @@
         padding: 10px;
         background-color: #212529c0;
       }
+      .nav-link {
+        font-size: small;
+        color: rgb(47, 255, 64) !important;
+      }
       .navbar-nav .nav-link {
         color: rgb(47, 255, 64) !important;
         font-size: medium;
@@ -170,26 +174,10 @@
               />
             </a>
             <div class="align-items-center gap-3">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="bi bi-list"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Home</a
-                  >
-                </div>
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </div>
             </div>
           </div>
@@ -741,9 +729,14 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-4">
-              <p class="mb-0">&copy; 2025 Haapa Games Oy</p>
+              <p class="mb-0">&copy; 2025 Haapa Games</p>
               <p>3505474-6</p>
-              <a class="nav-link" href="privacy.html">Privacy policies</a>
+              <div class="d-flex flex-row">
+                <a class="nav-link me-3" href="privacy.html"
+                  >Privacy policies</a
+                >
+                <a class="nav-link" href="terms.html">Terms of Use</a>
+              </div>
             </div>
             <div class="col-md-4">
               <div class="navbar-nav d-flex flex-row justify-content-md-center">
